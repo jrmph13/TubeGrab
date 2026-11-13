@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: tubegrab
+    runtime: docker
+    plan: free
+    healthCheckPath: /healthz
+    autoDeploy: true
+    envVars:
+      - key: MAX_DURATION_SECONDS
+        value: "3600"
+      - key: YTDLP_COOKIES
+        sync: false   # paste your cookies.txt contents in the Render dashboard

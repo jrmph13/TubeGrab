@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Offline | TubeGrab</title>
+<style>
+  :root { --bg: #EEF0EF; --ink: #17191C; --muted: #63676E; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #121416; --ink: #ECEEEF; --muted: #9BA1A7; } }
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: var(--bg); color: var(--ink);
+         font: 16px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; padding: 24px; text-align: center; }
+  img { width: 64px; height: 64px; }
+  h1 { font-size: 1.5rem; margin: 18px 0 6px; letter-spacing: -0.02em; }
+  p { color: var(--muted); margin: 0 auto 20px; max-width: 30ch; }
+  button { font: inherit; font-weight: 700; border: 0; border-radius: 12px; padding: 12px 20px; background: var(--ink); color: var(--bg); cursor: pointer; }
+</style>
+</head>
+<body>
+  <main>
+    <img src="/static/icons/icon-192.png" alt="">
+    <h1>You're offline</h1>
+    <p>TubeGrab needs the internet to reach YouTube. Connect and try again.</p>
+    <button onclick="location.reload()">Try again</button>
+  </main>
+</body>
+</html>

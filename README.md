@@ -6,7 +6,7 @@ YouTube to MP4 / MP3 downloader and installable app (PWA).
 
 Paste a link, see the thumbnail, choose **Video MP4** (every resolution the video really has, 4K down to 144p, with file sizes) or **Audio MP3** (320 / 192 / 128 kbps), and download. Progress is real: it comes straight from the downloader, with speed, time left and the processing step (joining video and audio, converting to MP3).
 
-Built with Flask, yt-dlp, Deno (solves YouTube's player challenges) and ffmpeg. Icons: [Lucide](https://lucide.dev) (ISC license, see `templates/icons/LICENSE`).
+Built with Flask, yt-dlp, Deno (solves YouTube's player challenges) and ffmpeg. Icons: [Lucide](https://lucide.dev) (ISC license, see `LICENSE-lucide.txt`).
 
 MP3s include the video thumbnail as cover art.
 
